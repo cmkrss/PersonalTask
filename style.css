@@ -1,0 +1,38 @@
+body{
+    background: #ffe6f3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+form {
+    background: #e60077;
+    height: 550px;
+    width: 450px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 100px auto;
+    position: relative;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#fname, #lname {
+    width: 195px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: rgb(95, 97, 97);
+}
+#email, #p_word, #c_p_word, #sign-up {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: rgb(95, 97, 97);
+}
+
+p,h1,a {
+    text-align: center;
+}
