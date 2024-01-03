@@ -5,7 +5,7 @@ body{
 }
 
 form {
-    background: #e60077;
+    background: #00e6e2;
     height: 550px;
     width: 450px;
     padding-top: 20px;
@@ -24,13 +24,22 @@ form {
     font-size: 20px;
     color: rgb(95, 97, 97);
 }
-#email, #p_word, #c_p_word, #sign-up {
+#email, #p_word, #c_p_word {
     width: 400px;
     height: 40px;
     border-radius: 5px;
     border: none;
     font-size: 20px;
     color: rgb(95, 97, 97);
+}
+#sign-up, #login {
+    background-color: goldenrod;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: rgb(29, 49, 49);
 }
 
 p,h1,a {
